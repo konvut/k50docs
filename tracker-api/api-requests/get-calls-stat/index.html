@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Получение статистики по звонкам - API K☆50:Трекера</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Получение статистики по звонкам";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TRCLJ2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRCLJ2');</script>
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> API K☆50:Трекера</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Начать поиск" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Начало работы</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../token_creation/">Получение авторизационного токена</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../token_authorization/">Авторизация по токену</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Методы API</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../get-counters-list/">Получение списка счетчиков</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Получение статистики по звонкам</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#_1">Получение статистики по звонкам</a></li>
+                
+                    <li><a class="toctree-l4" href="#_2">Синтаксис запроса</a></li>
+                
+                    <li><a class="toctree-l4" href="#_3">Пример запроса</a></li>
+                
+                    <li><a class="toctree-l4" href="#_4">Формат ответа</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../get-orders-stat/">Получение статистики по заказам</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">API K☆50:Трекера</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">API K☆50:Трекера</a> &raquo;</li>
+    
+      
+        
+          <li>Методы API &raquo;</li>
+        
+      
+    
+    <li>Получение статистики по звонкам</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="_1">Получение статистики по звонкам</h2>
+<p>Данный метод возвращает подробную информацию о звонках за указанный период. Для звонков по номерам из динамического пула также предоставляется информация о каждом визите пользователя. </p>
+<h3 id="_2">Синтаксис запроса</h3>
+<blockquote>
+<p>GET http://api-tracker.k50.ru/api/call/ext/<strong>counterId</strong>/<strong>dateFrom</strong>/<strong>dateTo</strong></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Параметр</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>counterId</td>
+<td>Идентификатор счетчика клиента</td>
+</tr>
+<tr>
+<td>dateFrom</td>
+<td>Дата начала периода выборки в формате <strong>YYYY-MM-DD HH:MM:SS</strong></td>
+</tr>
+<tr>
+<td>dateTo</td>
+<td>Дата окончания периода выборки в формате <strong>YYYY-MM-DD HH:MM:SS</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">Пример запроса</h3>
+<blockquote>
+<p>GET http://api-tracker.k50.ru/api/call/ext/<strong>1169056830</strong>/<strong>2015-12-10 00:00:00</strong>/<strong>2015-12-11 00:00:00</strong>?apiKey=<strong>ae162273-8a98-459d-abb0-3454d0470b70</strong></p>
+</blockquote>
+<h3 id="_4">Формат ответа</h3>
+<pre><code class="json">[
+  {
+    &quot;id&quot;: &lt;integer&gt;,
+    &quot;start_time&quot;: &lt;string&gt;,
+    &quot;stop_time&quot;: &lt;string&gt;,
+    &quot;caller_phone&quot;: &lt;integer&gt;,
+    &quot;called_phone&quot;: &lt;integer&gt;,
+    &quot;duration&quot;: &lt;integer&gt;,
+    &quot;count_call&quot;: &lt;integer&gt;,
+    &quot;is_matching&quot;: &lt;boolean&gt;,
+    &quot;sid&quot;: &lt;string&gt;,
+    &quot;uuid&quot;: &lt;string&gt;,
+    &quot;user_agent&quot;: &lt;string&gt;,
+    &quot;utm_source&quot;: &lt;string&gt;,
+    &quot;utm_medium&quot;: &lt;string&gt;,
+    &quot;utm_term&quot;: &lt;string&gt;,
+    &quot;utm_content&quot;: &lt;string&gt;,
+    &quot;utm_campaign&quot;: &lt;string&gt;,
+    &quot;type&quot;: &lt;integer&gt;,
+    &quot;analytics_client_id&quot;: &lt;integer&gt;,
+    &quot;entryPoints&quot;: [
+      {
+        &quot;sid&quot;: &lt;string&gt;,
+        &quot;start_time&quot;: &lt;string&gt;,
+        &quot;entry_point&quot;: &lt;string&gt;,
+        &quot;referrer&quot;: &lt;string&gt;
+      },
+      ...
+    ]
+  }
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Параметры</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>идентификатор звонка</td>
+</tr>
+<tr>
+<td>start_time</td>
+<td>Дата начала звонка</td>
+</tr>
+<tr>
+<td>stop_time</td>
+<td>Дата начала звонка</td>
+</tr>
+<tr>
+<td>caller_phone</td>
+<td>Номер телефона клиента</td>
+</tr>
+<tr>
+<td>called_phone</td>
+<td>Номер назначения</td>
+</tr>
+<tr>
+<td>duration</td>
+<td>Длительность звонка, в секундах</td>
+</tr>
+<tr>
+<td>count_call</td>
+<td>Порядковый номер звонка</td>
+</tr>
+<tr>
+<td>is_matching</td>
+<td>Сопоставлен ли звонок. Возможные значения: <strong>true</strong>,<strong>false</strong></td>
+</tr>
+<tr>
+<td>sid</td>
+<td>Идентификатор сеанса, с которым ассоциирован звонок</td>
+</tr>
+<tr>
+<td>uuid</td>
+<td>Идентификатор пользователя, с которым ассоциирован звонок</td>
+</tr>
+<tr>
+<td>user_agent</td>
+<td>User Agent, определенный в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>utm_source</td>
+<td>Метка utm_source, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>utm_medium</td>
+<td>Метка utm_medium, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>utm_term</td>
+<td>Метка utm_term, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>utm_content</td>
+<td>Метка utm_content, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>utm_campaign</td>
+<td>Метка utm_campaign, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
+<td>type</td>
+<td>Типа звонка. Возможные значения: <strong>1</strong> - звонок ассоциировали с конкретным сеансом, <strong>2</strong> - звонок ассоциировали с метками по умолчанию (не удалось определить сеанс)</td>
+</tr>
+<tr>
+<td>analytics_client_id</td>
+<td>Идентификатор клиента Google Analytics (client_id)</td>
+</tr>
+<tr>
+<td>entryPoints</td>
+<td>Список сеансов пользователя, совершившего звонок. Каждый сеанс задаётся в виде объекта entryPoinInfo</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Объект entryPointInfo</strong></p>
+<table>
+<thead>
+<tr>
+<th>Параметры</th>
+<th>Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sid</td>
+<td>Идентификатор сеанса</td>
+</tr>
+<tr>
+<td>start_time</td>
+<td>Дата начала сеанса</td>
+</tr>
+<tr>
+<td>entry_point</td>
+<td>Страница входа сеанса</td>
+</tr>
+<tr>
+<td>referrer</td>
+<td>Реферер сеанса</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../get-orders-stat/" class="btn btn-neutral float-right" title="Получение статистики по заказам"/>Следующая <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../get-counters-list/" class="btn btn-neutral" title="Получение списка счетчиков"><span class="icon icon-circle-arrow-left"></span> Предыдущая</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../get-counters-list/" style="color: #fcfcfc;">&laquo; Предыдущая</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../get-orders-stat/" style="color: #fcfcfc">Следующая &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
