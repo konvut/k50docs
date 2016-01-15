@@ -158,7 +158,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <p>Данный метод возвращает подробную информацию о звонках за указанный период. Для звонков по номерам из динамического пула также предоставляется информация о каждом визите пользователя. </p>
 <h3 id="_2">Синтаксис запроса</h3>
 <blockquote>
-<p>GET http://api-tracker.k50.ru/api/call/ext/<strong>counterId</strong>/<strong>dateFrom</strong>/<strong>dateTo</strong></p>
+<p>GET http://api.tracker.k50.ru/api/call/ext/<strong>counterId</strong>/<strong>dateFrom</strong>/<strong>dateTo</strong></p>
 </blockquote>
 <table>
 <thead>
@@ -184,7 +184,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </table>
 <h3 id="_3">Пример запроса</h3>
 <blockquote>
-<p>GET http://api-tracker.k50.ru/api/call/ext/<strong>1169056830</strong>/<strong>2015-12-10 00:00:00</strong>/<strong>2015-12-11 00:00:00</strong>?apiKey=<strong>ae162273-8a98-459d-abb0-3454d0470b70</strong></p>
+<p>GET http://api.tracker.k50.ru/api/call/ext/<strong>1169056830</strong>/<strong>2015-12-10 00:00:00</strong>/<strong>2015-12-11 00:00:00</strong>?apiKey=<strong>ae162273-8a98-459d-abb0-3454d0470b70</strong></p>
 </blockquote>
 <h3 id="_4">Формат ответа</h3>
 <pre><code class="json">[
@@ -205,6 +205,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     &quot;utm_term&quot;: &lt;string&gt;,
     &quot;utm_content&quot;: &lt;string&gt;,
     &quot;utm_campaign&quot;: &lt;string&gt;,
+    &quot;label&quot;: &lt;string&gt;,
     &quot;type&quot;: &lt;integer&gt;,
     &quot;analytics_client_id&quot;: &lt;integer&gt;,
     &quot;entryPoints&quot;: [
@@ -212,7 +213,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         &quot;sid&quot;: &lt;string&gt;,
         &quot;start_time&quot;: &lt;string&gt;,
         &quot;entry_point&quot;: &lt;string&gt;,
-        &quot;referrer&quot;: &lt;string&gt;
+        &quot;referrer&quot;: &lt;string&gt;,
+        &quot;label&quot;: &lt;string&gt;
       },
       ...
     ]
@@ -292,6 +294,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <td>Метка utm_campaign, определенная в рамках ассоциированного сеанса</td>
 </tr>
 <tr>
+<td>label</td>
+<td>Пользовательская метка, определенная в рамках ассоциированного сеанса</td>
+</tr>
+<tr>
 <td>type</td>
 <td>Типа звонка. Возможные значения: <strong>1</strong> - звонок ассоциировали с конкретным сеансом, <strong>2</strong> - звонок ассоциировали с метками по умолчанию (не удалось определить сеанс)</td>
 </tr>
@@ -329,6 +335,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <tr>
 <td>referrer</td>
 <td>Реферер сеанса</td>
+</tr>
+<tr>
+<td>label</td>
+<td>Пользовательская метка, заданная в посещении</td>
 </tr>
 </tbody>
 </table>
