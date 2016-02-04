@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>None/</loc>
+     <loc>None/tracker/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>None/first-steps/</loc>
+     <loc>None/tracker/first-steps/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -19,7 +19,7 @@
 
     
     <url>
-     <loc>None/code-tracker/</loc>
+     <loc>None/tracker/code-tracker/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -28,41 +28,25 @@
     
         
     <url>
-     <loc>None/calltracking/</loc>
+     <loc>None/tracker/calltracking/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/calltracking/features/</loc>
+     <loc>None/tracker/calltracking/features/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/calltracking/supported-regions/</loc>
+     <loc>None/tracker/calltracking/supported-regions/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/calltracking/price/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/counters/initialization/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/counters/javascript-api/</loc>
+     <loc>None/tracker/calltracking/price/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -72,25 +56,13 @@
     
         
     <url>
-     <loc>None/reports/report-configurator/</loc>
+     <loc>None/tracker/counters/initialization/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/reports/calls/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/reports/orders/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/reports/dimensions-and-metrics/</loc>
+     <loc>None/tracker/counters/javascript-api/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -100,31 +72,59 @@
     
         
     <url>
-     <loc>None/integration/k50/</loc>
+     <loc>None/tracker/reports/report-configurator/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/integration/crm/</loc>
+     <loc>None/tracker/reports/calls/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/integration/google-analytics/</loc>
+     <loc>None/tracker/reports/orders/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/integration/tracker-api/</loc>
+     <loc>None/tracker/reports/dimensions-and-metrics/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/tracker/integration/k50/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/integration/phone-log-import/</loc>
+     <loc>None/tracker/integration/crm/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/tracker/integration/google-analytics/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/tracker/integration/tracker-api/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/tracker/integration/phone-log-import/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -133,10 +133,51 @@
 
     
     <url>
-     <loc>None/faq/</loc>
+     <loc>None/tracker/faq/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
+	<url>
+     <loc>None/tracker-api/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tracker-api/token_creation/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tracker-api/token_authorization/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/tracker-api/api-requests/get-counters-list/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/tracker-api/api-requests/get-calls-stat/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/tracker-api/api-requests/get-orders-stat/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
