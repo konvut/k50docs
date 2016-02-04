@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>None/tracker/</loc>
+     <loc>http://help.k50.ru/tracker/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -11,7 +11,7 @@
 
     
     <url>
-     <loc>None/tracker/first-steps/</loc>
+     <loc>http://help.k50.ru/tracker/first-steps/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -19,7 +19,7 @@
 
     
     <url>
-     <loc>None/tracker/code-tracker/</loc>
+     <loc>http://help.k50.ru/tracker/code-tracker/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -28,41 +28,25 @@
     
         
     <url>
-     <loc>None/tracker/calltracking/</loc>
+     <loc>http://help.k50.ru/tracker/calltracking/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/calltracking/features/</loc>
+     <loc>http://help.k50.ru/tracker/calltracking/features/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/calltracking/supported-regions/</loc>
+     <loc>http://help.k50.ru/tracker/calltracking/supported-regions/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/calltracking/price/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/tracker/counters/initialization/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/tracker/counters/javascript-api/</loc>
+     <loc>http://help.k50.ru/tracker/calltracking/price/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -72,25 +56,13 @@
     
         
     <url>
-     <loc>None/tracker/reports/report-configurator/</loc>
+     <loc>http://help.k50.ru/tracker/counters/initialization/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/reports/calls/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/tracker/reports/orders/</loc>
-     <lastmod>2016-02-05</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/tracker/reports/dimensions-and-metrics/</loc>
+     <loc>http://help.k50.ru/tracker/counters/javascript-api/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -100,31 +72,59 @@
     
         
     <url>
-     <loc>None/tracker/integration/k50/</loc>
+     <loc>http://help.k50.ru/tracker/reports/report-configurator/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/integration/crm/</loc>
+     <loc>http://help.k50.ru/tracker/reports/calls/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/integration/google-analytics/</loc>
+     <loc>http://help.k50.ru/tracker/reports/orders/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/integration/tracker-api/</loc>
+     <loc>http://help.k50.ru/tracker/reports/dimensions-and-metrics/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>http://help.k50.ru/tracker/integration/k50/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker/integration/phone-log-import/</loc>
+     <loc>http://help.k50.ru/tracker/integration/crm/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://help.k50.ru/tracker/integration/google-analytics/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://help.k50.ru/tracker/integration/tracker-api/</loc>
+     <lastmod>2016-02-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://help.k50.ru/tracker/integration/phone-log-import/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -133,14 +133,14 @@
 
     
     <url>
-     <loc>None/tracker/faq/</loc>
+     <loc>http://help.k50.ru/tracker/faq/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
 
 	<url>
-     <loc>None/tracker-api/</loc>
+     <loc>http://help.k50.ru/tracker-api/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -148,7 +148,7 @@
 
     
     <url>
-     <loc>None/tracker-api/token_creation/</loc>
+     <loc>http://help.k50.ru/tracker-api/token_creation/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -156,7 +156,7 @@
 
     
     <url>
-     <loc>None/tracker-api/token_authorization/</loc>
+     <loc>http://help.k50.ru/tracker-api/token_authorization/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -164,19 +164,19 @@
 
     
     <url>
-     <loc>None/tracker-api/api-requests/get-counters-list/</loc>
+     <loc>http://help.k50.ru/tracker-api/api-requests/get-counters-list/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker-api/api-requests/get-calls-stat/</loc>
+     <loc>http://help.k50.ru/tracker-api/api-requests/get-calls-stat/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/tracker-api/api-requests/get-orders-stat/</loc>
+     <loc>http://help.k50.ru/tracker-api/api-requests/get-orders-stat/</loc>
      <lastmod>2016-02-05</lastmod>
      <changefreq>daily</changefreq>
     </url>
