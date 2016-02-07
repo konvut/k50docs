@@ -35,7 +35,7 @@ require([
 
     for (var i=0; i < data.docs.length; i++){
         var doc = data.docs[i];
-        doc.location = base_url + doc.location;
+        doc.location = 'http://help.k50.ru' + doc.location;
         index.add(doc);
         documents[doc.location] = doc;
     }
