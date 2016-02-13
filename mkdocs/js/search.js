@@ -1,8 +1,8 @@
 require([
-    base_url + '/mkdocs/js/mustache.min.js',
-    base_url + '/mkdocs/js/lunr-0.5.7.min.js',
-    base_url + '/mkdocs/js/lunr.stemmer.support.js',
-    base_url + '/mkdocs/js/lunr.ru.js',
+    '/mkdocs/js/mustache.min.js',
+    '/mkdocs/js/lunr-0.5.7.min.js',
+    '/mkdocs/js/lunr.stemmer.support.js',
+    '/mkdocs/js/lunr.ru.js',
     'text!search-results-template.mustache',
     'text!../search_index.json',
 ], function (Mustache, lunr, stemmerSupport, ru, results_template, data) {
