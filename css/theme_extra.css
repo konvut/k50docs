@@ -198,9 +198,10 @@ code.cs, code.c {
     margin-top:10px;
     
 }
-.product{
+.item{
     
     width: 20%;
+    min-width: 240px;
     margin-left: 5%;
     margin-top: 3%;
 }
@@ -218,4 +219,11 @@ code.cs, code.c {
 div#mkdocs-search-results{
     width: 70%;
     margin-left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .row {
+        display: block;
+    }
 }
