@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8967e8fa-d690-4f5c-a54d-8bd3b91aacdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme_extra.css" afterPath="$PROJECT_DIR$/css/theme_extra.css" />
     </list>
     <ignored path="k50docs.iws" />
@@ -24,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -37,8 +36,8 @@
       <file leaf-file-name="theme_extra.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme_extra.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.4827585">
-              <caret line="226" column="18" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="18" />
+            <state vertical-scroll-proportion="-14.24138">
+              <caret line="229" column="17" selection-start-line="229" selection-start-column="17" selection-end-line="229" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -64,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_index.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search_index.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracker/mkdocs/search_index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-165.60692">
+            <state vertical-scroll-proportion="1534.2075">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -82,8 +81,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/theme_extra.css" />
         <option value="$PROJECT_DIR$/css/theme.css" />
+        <option value="$PROJECT_DIR$/css/theme_extra.css" />
       </list>
     </option>
   </component>
@@ -299,18 +298,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/mkdocs/search_index.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="28.867924">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme_extra.css">
+    <entry file="file://$PROJECT_DIR$/tracker/mkdocs/search_index.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.4827585">
-          <caret line="226" column="18" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="18" />
+        <state vertical-scroll-proportion="1534.2075">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -323,17 +322,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mkdocs/search_index.json">
+    <entry file="file://$PROJECT_DIR$/css/theme_extra.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="28.867924">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-14.24138">
+          <caret line="229" column="17" selection-start-line="229" selection-start-column="17" selection-end-line="229" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracker/mkdocs/search_index.json">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-165.60692">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

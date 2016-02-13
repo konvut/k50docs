@@ -200,7 +200,7 @@ code.cs, code.c {
 }
 .item{
     
-    width: 20%;
+    width: 45%;
     min-width: 240px;
     margin-left: 5%;
     margin-top: 3%;
@@ -225,5 +225,8 @@ div#mkdocs-search-results{
 
     .row {
         display: block;
+    }
+    .item {
+        width:90%
     }
 }
