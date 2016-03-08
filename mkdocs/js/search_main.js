@@ -1,8 +1,8 @@
 require([
-    base_url + '/mkdocs/js/mustache.min.js',
-    base_url + '/mkdocs/js/lunr-0.5.7.min.js',
-    base_url + '/mkdocs/js/lunr.stemmer.support.js',
-    base_url + '/mkdocs/js/lunr.ru.js',
+    '/mkdocs/js/mustache.min.js',
+    '/mkdocs/js/lunr-0.5.7.min.js',
+    '/mkdocs/js/lunr.stemmer.support.js',
+    '/mkdocs/js/lunr.ru.js',
     'text!search-results-template.mustache',
     'text!../search_index.json',
 ], function (Mustache, lunr, stemmerSupport, ru, results_template, data) {
@@ -35,7 +35,7 @@ require([
 
     for (var i=0; i < data.docs.length; i++){
         var doc = data.docs[i];
-        doc.location = base_url + doc.location;
+        doc.location = 'http://help.k50.ru' + doc.location;
         index.add(doc);
         documents[doc.location] = doc;
     }
@@ -46,10 +46,6 @@ require([
         var search_results = document.getElementById("mkdocs-search-results");
         while (search_results.firstChild) {
             search_results.removeChild(search_results.firstChild);
-        }
-
-        if(query === ''){
-            return;
         }
 
         var results = index.search(query);
@@ -64,7 +60,7 @@ require([
                 search_results.insertAdjacentHTML('beforeend', html);
             }
         } else {
-            search_results.insertAdjacentHTML('beforeend', "<p>Ничего не удалось найти :(</p>");
+            search_results.insertAdjacentHTML('beforeend', '<div class="products row"><div class="item col-6"><a href="http://help.k50.ru/tracker"><div class="product-title col-12">K☆50:Трекер</div><div class="product-description col-11">Отслеживайте источники звонков, offline и online заказов</div></a></div><div class="item col-6"><a href="http://help.k50.ru/tracker-api col-12"><div class="product-title col-11">API K☆50:Трекера</div><div class="product-description">Используйте данные о звонках и заказах из K☆50:Трекера в своих сервисах</div></a></div></div>');
         }
 
         if(jQuery){
