@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>API K☆50:Трекера - Начало работы</title>
+  <title>K☆50:Оптимизатор - О сервисе</title>
   
 
   <link rel="shortcut icon" href="../img/favicon.ico">
@@ -24,7 +24,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "tracker-api||Начало работы";
+    var mkdocs_page_name = "optimisator||О сервисе";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -50,7 +50,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div class="wy-side-nav-search">
         
            
-           <a href="/tracker-api/" class="icon icon-home">API K☆50:Трекера</a>
+           <a href="/optimisator/" class="icon icon-home">K☆50:Оптимизатор</a>
            
         
         <div role="search">
@@ -106,15 +106,35 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
 
 
+<li>
+          
+            <li>
+
+
+<li>
+          
+            <li>
+
+
+<li>
+          
+            <li>
+
+
+<li>
+          
+            <li>
+
+
 
     <li class="toctree-l1 current">
 
-        <a class="current" href="./">Начало работы</a>
+        <a class="current" href="./">О сервисе</a>
         
             <ul>
             
 
-                <li class="toctree-l3"><a href="#_1">Введение</a></li>
+                <li class="toctree-l3"><a href="#_1">О сервисе</a></li>
 
                 
 
@@ -130,34 +150,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 
-    <li class="toctree-l1 ">
-
-        <a class="" href="token_creation/">Получение авторизационного токена</a>
-        
-    </li>
-
-
-<li>
-          
-            <li>
-
-
-
-    <li class="toctree-l1 ">
-
-        <a class="" href="token_authorization/">Авторизация по токену</a>
-        
-    </li>
-
-
-<li>
-          
-            <li>
-
-
-
     <ul class="subnav">
-    <li><span>Методы API</span></li>
+    <li><span>Подключение систем</span></li>
 
         
             
@@ -166,7 +160,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <li class="toctree-l1 ">
 
-        <a class="" href="api-requests/get-counters-list/">Получение списка счетчиков</a>
+        <a class="" href="connect/yandex-direct/">Яндекс.Директ</a>
         
     </li>
 
@@ -179,7 +173,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <li class="toctree-l1 ">
 
-        <a class="" href="api-requests/get-calls-stat/">Получение статистики по звонкам</a>
+        <a class="" href="connect/google-adwords/">Google AdWords</a>
         
     </li>
 
@@ -192,7 +186,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <li class="toctree-l1 ">
 
-        <a class="" href="api-requests/get-orders-stat/">Получение статистики по заказам</a>
+        <a class="" href="connect/google-analytics/">Google Analytics</a>
         
     </li>
 
@@ -207,14 +201,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
 
 
-<li>
-          
-            <li>
 
+    <li class="toctree-l1 ">
 
-<li>
-          
-            <li>
+        <a class="" href="faq/">Часто задаваемые вопросы</a>
+        
+    </li>
 
 
 <li>
@@ -236,7 +228,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
         
           
-          <a href="/tracker-api/">API K☆50:Трекера</a>
+          <a href="/optimisator/">K☆50:Оптимизатор</a>
           
         
       </nav>
@@ -248,13 +240,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <ul class="wy-breadcrumbs">
     
       
-      <li><a href="/tracker-api/">API K☆50:Трекера</a> &raquo;</li>
+      <li><a href="/optimisator/">K☆50:Оптимизатор</a> &raquo;</li>
       
     
     
       
     
-    <li>Начало работы</li>
+    <li>О сервисе</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -264,17 +256,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div role="main">
             <div class="section">
               
-                <h1 id="_1">Введение</h1>
-<p>API сервиса <a href="http://help.k50.ru/tracker/" target="_blank">К☆50:Трекер</a> позволяет получать информацию о звонках и заказах, не используя веб-интерфейс.<br />
-Формировать отчеты, в том числе с помощью сегментации и параметризации.<br />
-Для использования API Трекера необходимо создать <a href="../token_creation">авторизационый токен</a>. Необходимо отправлять авторизационный токен в каждом запросе к API.<br />
-Для иллюстрации возможностей API в справочнике приведены примеры обращения к сервису.<br />
-API Трекера построен по REST-принципам.</p>
-<blockquote>
-<p>См. также</p>
-<p><a href="http://en.wikipedia.org/wiki/Representational_State_Transfer" target="_blank">Representational State Transfer (Wikipedia, english version)</a><br/><br />
-<a href="http://ru.wikipedia.org/wiki/REST" target="_blank">REST (Википедия, русская версия)</a></p>
-</blockquote>
+                <h1 id="_1">О сервисе</h1>
+<p><a href="http://k50.ru/" target="_blank">K☆50 Оптимизатор</a> — это сервис для анализа, управления и автоматической оптимизации рекламных систем. Оптимизатор состоит из нескольких модулей, которые могут использоваться по отдельности либо совместно для достижения наилучшего эффекта</p>
+<ul>
+<li>Статистика</li>
+<li>Правила</li>
+<li>Стратегии</li>
+<li>Переметка</li>
+<li>Система уведомлений</li>
+<li>История изменений</li>
+</ul>
               
             </div>
           </div>
@@ -282,10 +273,10 @@ API Трекера построен по REST-принципам.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="token_creation/" class="btn btn-neutral float-right" title="tracker-api||Получение авторизационного токена"/>Следующая <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="connect/yandex-direct/" class="btn btn-neutral float-right" title="optimisator||Яндекс.Директ"/>Следующая <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../tracker/faq/" class="btn btn-neutral" title="tracker||Часто задаваемые вопросы"><span class="icon icon-circle-arrow-left"></span> Предыдущая</a>
+        <a href="../tracker-api/api-requests/get-orders-stat/" class="btn btn-neutral" title="tracker-api||Получение статистики по заказам"><span class="icon icon-circle-arrow-left"></span> Предыдущая</a>
       
     </div>
   
@@ -310,10 +301,10 @@ API Трекера построен по REST-принципам.</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../tracker/faq/" style="color: #fcfcfc;">&laquo; Предыдущая</a></span>
+        <span><a href="../tracker-api/api-requests/get-orders-stat/" style="color: #fcfcfc;">&laquo; Предыдущая</a></span>
       
       
-        <span style="margin-left: 15px"><a href="token_creation/" style="color: #fcfcfc">Следующая &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="connect/yandex-direct/" style="color: #fcfcfc">Следующая &raquo;</a></span>
       
     </span>
 </div>
