@@ -493,12 +493,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <td>label</td>
 <td>Пользовательская метка. Любой параметр, который вы хотите передать в счетчик, чтобы его использовать в трекер. Например, можно передавать регион.</td>
 </tr>
+<tr>
+<td>callback</td>
+<td>Функция, которая будет вызвана после инициализации счетчика. Например, можно записать идентификатор текущего сеанса, выданный трекером</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Пример</strong></p>
 <pre><code class="js">&lt;script src=&quot;http://cdn.k50.ru/k50/k50tracker2.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
-var k50TrackerInstance = k50Tracker.init({siteId: 1234567, landing: 'test.ru', label: 'msk'});
+var k50TrackerInstance = k50Tracker.init(
+   {
+    siteId: 1234567, 
+    landing: 'test.ru', 
+    label: 'msk', 
+    callback: function(e){/*your code here*/}
+    }
+);
 &lt;/script&gt;
 </code></pre>
 
@@ -598,7 +609,7 @@ phones: [
 
   <div role="contentinfo" class="contentinfo">
     <!-- Copyright etc -->
-    <p>Дата последнего обновления - 2016-03-08</p>
+    <p>Дата последнего обновления - 2016-03-09</p>
     <p>2011–2016 <a href="http://k50.ru" target="_blank">K☆50</a></p>
   </div>
 
