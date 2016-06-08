@@ -1,0 +1,21 @@
+<footer>
+  {% if next_page or previous_page %}
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      {% if next_page %}
+        <a href="{{ next_page.url }}" class="btn btn-neutral float-right" title="{{ next_page.title.split('||')[1] }}"/>Следующая <span class="icon icon-circle-arrow-right"></span></a>
+      {% endif %}
+      {% if previous_page %}
+        <a href="{{ previous_page.url }}" class="btn btn-neutral" title="{{ previous_page.title.split('||')[1] }}"><span class="icon icon-circle-arrow-left"></span> Предыдущая</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <hr/>
+
+  <div role="contentinfo" class="contentinfo">
+    <!-- Copyright etc -->
+    <p>Дата последнего обновления - {% if meta %}{{meta.last_modified[0]}}{% endif %}</p>
+    <p>2011–{{build_date_utc.isoformat().split('-')[0]}} <a href="http://k50.ru" target="_blank">K☆50</a></p>
+  </div>
+
+</footer>
