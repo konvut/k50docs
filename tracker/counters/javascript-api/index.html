@@ -503,6 +503,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <pre><code class="js">init({
       siteId:&lt;integer&gt;,
       landing:&lt;string&gt;,
+      domReady:&lt;string&gt;,
       label:&lt;string&gt;
      })
 </code></pre>
@@ -529,6 +530,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <td>Пользовательская метка. Любой параметр, который вы хотите передать в счетчик, чтобы его использовать в трекер. Например, можно передавать регион.</td>
 </tr>
 <tr>
+<td>domReady</td>
+<td>Если указано значение k50BeforeDomReady, то номера будут подменяться до загрузки DOM. По умолчанию номера подменяются после загрузку DOM</td>
+</tr>
+<tr>
 <td>callback</td>
 <td>Функция, которая будет вызвана после инициализации счетчика. Например, можно записать идентификатор текущего сеанса, выданный трекером</td>
 </tr>
@@ -542,6 +547,7 @@ var s = document.createElement(a); s.src = p; s.type = &quot;text/javascript&quo
         siteId: 1234567,
         landing: 'test.ru',
         label: 'msk',
+        domReady:'k50BeforeDomReady',
         callback: function(e){/*your code here*/}
 })
 },&quot;script&quot;,&quot;https://k50-a.akamaihd.net/k50/k50tracker2.js&quot;);
