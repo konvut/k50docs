@@ -189,9 +189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <li class="toctree-l3"><a href="#_1">Инициализация счетчика</a></li>
 
                 
-                    <li><a class="toctree-l4" href="#http">Пример для HTTP сайта</a></li>
-                
-                    <li><a class="toctree-l4" href="#https">Пример для HTTPS сайта</a></li>
+                    <li><a class="toctree-l4" href="#_2">Пример кода отслеживания</a></li>
                 
 
             
@@ -496,16 +494,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="section">
               
                 <h1 id="_1">Инициализация счетчика</h1>
-<p>JavaScript-библиотека, отвечающая за работу счётчика загружается с URL http://cdn.k50.ru/k50/k50tracker2.js (https://k50-a.akamaihd.net/k50/k50tracker2.js - для https сайтов).<br />
+<p>JavaScript-библиотека, отвечающая за работу счётчика загружается с URL https://k50-a.akamaihd.net/k50/k50tracker2.js.<br />
 Код для подключения библиотеки доступен на странице редактирования счётчика. Библиотека может быть загружена асинхронным и синхронным способом, однако, её функционал при этом остаётся неизменным.</p>
-<h2 id="http">Пример для HTTP сайта</h2>
-<pre><code class="js">&lt;script src=&quot;http://cdn.k50.ru/k50/k50tracker2.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;var k50TrackerInstance = k50Tracker.init({siteId: 123456789});&lt;/script&gt;
-</code></pre>
-
-<h2 id="https">Пример для HTTPS сайта</h2>
-<pre><code class="js">&lt;script src=&quot;https://k50-a.akamaihd.net/k50/k50tracker2.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;var k50TrackerInstance = k50Tracker.init({siteId: 123456789});&lt;/script&gt;
+<h2 id="_2">Пример кода отслеживания</h2>
+<pre><code class="js">&lt;script&gt;
+(function(c,a,p) {
+var s = document.createElement(a); s.src = p; s.type = &quot;text/javascript&quot;; s.async =!0; s.readyState ? s.onreadystatechange = function() { if ( s.readyState === &quot;loaded&quot; || s.readyState === &quot;complete&quot; ) { s.onreadystatechange = null; c();}} : s.onload = function () {c();}; var n = document.getElementsByTagName(a)[0]; n.parentNode.insertBefore(s,n); })(function(){
+    k50Tracker.init({
+        siteId: 1169056832
+})
+},&quot;script&quot;,&quot;https://k50-a.akamaihd.net/k50/k50tracker2.js&quot;);
+&lt;/script&gt;
 </code></pre>
               
             </div>
@@ -526,7 +525,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <div role="contentinfo" class="contentinfo">
     <!-- Copyright etc -->
-    <p>Дата последнего обновления - 2016-03-09</p>
+    <p>Дата последнего обновления - 2016-06-17</p>
     <p>2011–2016 <a href="http://k50.ru" target="_blank">K☆50</a></p>
   </div>
 

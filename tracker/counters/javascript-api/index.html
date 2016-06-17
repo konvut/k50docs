@@ -535,16 +535,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </tbody>
 </table>
 <p><strong>Пример</strong></p>
-<pre><code class="js">&lt;script src=&quot;http://cdn.k50.ru/k50/k50tracker2.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-var k50TrackerInstance = k50Tracker.init(
-   {
-    siteId: 1234567, 
-    landing: 'test.ru', 
-    label: 'msk', 
-    callback: function(e){/*your code here*/}
-    }
-);
+<pre><code class="js">&lt;script&gt;
+(function(c,a,p) {
+var s = document.createElement(a); s.src = p; s.type = &quot;text/javascript&quot;; s.async =!0; s.readyState ? s.onreadystatechange = function() { if ( s.readyState === &quot;loaded&quot; || s.readyState === &quot;complete&quot; ) { s.onreadystatechange = null; c();}} : s.onload = function () {c();}; var n = document.getElementsByTagName(a)[0]; n.parentNode.insertBefore(s,n); })(function(){
+    k50Tracker.init({
+        siteId: 1234567,
+        landing: 'test.ru',
+        label: 'msk',
+        callback: function(e){/*your code here*/}
+})
+},&quot;script&quot;,&quot;https://k50-a.akamaihd.net/k50/k50tracker2.js&quot;);
 &lt;/script&gt;
 </code></pre>
 
@@ -555,7 +555,7 @@ var k50TrackerInstance = k50Tracker.init(
 
 <p><strong>Пример</strong></p>
 <pre><code class="js">&lt;script&gt;
-k50TrackerInstance.change();
+k50Tracker.change();
 &lt;/script&gt;
 </code></pre>
 
@@ -566,14 +566,14 @@ k50TrackerInstance.change();
 
 <p><strong>Пример</strong></p>
 <pre><code class="js">&lt;script&gt;
-k50TrackerInstance.getResultData();
+k50Tracker.getResultData();
 &lt;/script&gt;
 </code></pre>
 
 <p>Возращаемые параметры</p>
 <pre><code class="json">{
-sid: &lt;string&gt;, 
-uuid: &lt;string&gt;, 
+sid: &lt;string&gt;,
+uuid: &lt;string&gt;,
 phones: [
           {
             number: &lt;integer&gt;,
@@ -581,7 +581,7 @@ phones: [
           },
           ...
         ]
-}        
+}
 </code></pre>
 
 <table>
