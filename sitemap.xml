@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/tracker/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>None/tracker/first-steps/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
      <loc>None/tracker/code-tracker/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -29,25 +29,25 @@
         
     <url>
      <loc>None/tracker/calltracking/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/calltracking/features/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/calltracking/supported-regions/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/calltracking/price/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -57,13 +57,13 @@
         
     <url>
      <loc>None/tracker/counters/initialization/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/counters/javascript-api/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -73,25 +73,25 @@
         
     <url>
      <loc>None/tracker/reports/report-configurator/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/reports/calls/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/reports/orders/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/reports/dimensions-and-metrics/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -101,31 +101,31 @@
         
     <url>
      <loc>None/tracker/integration/k50/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/integration/crm/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/integration/google-analytics/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/integration/tracker-api/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker/integration/phone-log-import/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -134,7 +134,7 @@
     
     <url>
      <loc>None/tracker/faq/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -142,7 +142,7 @@
     
     <url>
      <loc>None/tracker-api/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -150,7 +150,7 @@
     
     <url>
      <loc>None/tracker-api/token_creation/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -158,7 +158,7 @@
     
     <url>
      <loc>None/tracker-api/token_authorization/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -167,19 +167,19 @@
         
     <url>
      <loc>None/tracker-api/api-requests/get-counters-list/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker-api/api-requests/get-calls-stat/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/tracker-api/api-requests/get-orders-stat/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -188,7 +188,7 @@
     
     <url>
      <loc>None/optimisator/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -196,7 +196,7 @@
     
     <url>
      <loc>None/optimisator/main-page/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -205,49 +205,49 @@
         
     <url>
      <loc>None/optimisator/connect/yandex-direct/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/google-adwords/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/google-analytics/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/k50/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/calltouch/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/comagic/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/calltrackingru/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/connect/crm/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -257,13 +257,13 @@
         
     <url>
      <loc>None/optimisator/statistics/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/optimisator/statistics/custom_metrics/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -272,7 +272,7 @@
     
     <url>
      <loc>None/optimisator/faq/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -280,7 +280,7 @@
     
     <url>
      <loc>None/generator/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -289,25 +289,25 @@
         
     <url>
      <loc>None/generator/start/project/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/start/company/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/start/project-list/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/start/company-list/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -316,7 +316,7 @@
     
     <url>
      <loc>None/generator/feed/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -325,49 +325,49 @@
         
     <url>
      <loc>None/generator/work/rules/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/template-text/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/template-keyword/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/bid/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/save/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/settings/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/daughter/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/work/links/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -377,19 +377,19 @@
         
     <url>
      <loc>None/generator/functions/tags/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/functions/syntax/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/generator/functions/list/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -398,7 +398,7 @@
     
     <url>
      <loc>None/generator/faq/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -406,7 +406,7 @@
     
     <url>
      <loc>None/best-practices/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -415,19 +415,19 @@
         
     <url>
      <loc>None/best-practices/optimisator/neeffektivnye-klyuchevye-slova/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/best-practices/optimisator/monitoring-effektivnosti/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>None/best-practices/optimisator/uvelicheniya-pk-akkaunta/</loc>
-     <lastmod>2016-06-26</lastmod>
+     <lastmod>2016-07-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
